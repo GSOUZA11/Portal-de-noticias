@@ -72,8 +72,7 @@ a {
   }
 
   figure {
-    position: relative;
-
+   
     .content-tag {
       position: relative;
   top: 8px;
