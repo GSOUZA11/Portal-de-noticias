@@ -4,7 +4,6 @@
       object-fit: cover;
     }
   
-  
 .card {
   border-radius: 4px;
   overflow: hidden;
@@ -19,31 +18,21 @@
   background: linear-gradient(180deg, transparent 0%, #020617 100%); 
 }
 
-.card figcaption {
-  position: absolute;
-  bottom: 0;
-  padding: 24px;
-}
-
-  .card::before {
-    content: "";
-    position: absolute;
-    inset: 0; 
-    top: 50%; 
-    background: linear-gradient(180deg, transparent 0%, #020617 100%); 
-  }
-  
   .card figcaption {
     position: absolute;
     bottom: 0;
-    padding: 24px;
+    padding: 2px;
   }
   
   .card figcaption h2 {
     margin-top: 8px;
-    position: relative; 
+    position: relative;
   }
 
+  .text-lg {
+    padding: 2px;
+  }
+  
 
 
 
